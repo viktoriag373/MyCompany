@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 44px;
+    text-align: center;
+}
+
+header {
+    background: #111111;
+    color: #ffffff;
+}
+
+.menu, 
+nav ul, 
+.about_us_wrapper, 
+.company, 
+.our_services_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    padding-top: 55px;
+    margin-bottom: 210px;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 37px;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;    
+    color: #999999;
+    padding-bottom: 420px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: lighter;
+    margin-bottom: 23px;
+}
+
+h1 span {
+    font-weight: bold;
+    color: #fcac45;
+}
+
+.heading p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about_us {
+    padding-top: 103px;
+    color: #222222;    
+    font-size: 18px;    
+    margin-bottom: 200px;
+}
+
+.about_us {
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.about_us p {
+    color: #6c6c6c;
+}
+
+.about_us h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+
+}
+
+.about_us h2 span {
+    font-weight: bold;
+}
+
+.line, .line_our {
+    height: 4px;
+    background: #fcac45;    
+}
+
+.line {
+    width: 400px;
+    margin-bottom: 32px;
+}
+
+.lorem {
+    width: 440px;
+    margin-bottom: 45px;
+}
+
+.advantages p {
+    font-style: italic;
+}
+
+.advantages p span {
+    font-style: normal;
+    font-weight: bold;
+}
+
+#our_team {
+    background: #070707;
+    color: #ffffff;
+}
+
+#our_team h2 {
+    padding-top: 100px;
+}
+
+.line_our {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 105px;
+}
+
+.company {
+    text-align: center;
+}
+
+.company h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.specialization {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.status {
+    font-size: 14px;
+    width: 250px;
+    padding-bottom: 170px;
+}
+
+#our_services {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    color: #222222;
+}
+
+.our_services_heading p {
+    color: #6c6c6c;
+    font-style: italic;
+    width: 1125px;
+    margin-bottom: 100px;
+}
+
+.services h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.servoces_description {
+    font-size: 14px;
+    width: 245px;
+
+}
+
+#our_clients {
+    background: #0b0b0b;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 210px;
+}
+
+.our_clients_heading h2, .our_work_heading h2{
+    font-weight: lighter;
+}
+
+.our_clients_heading span, .our_work_heading span {
+    font-weight: bold;
+}
+
+.our_clients_wrapper {
+    display: flex;
+    justify-content: space-around;
+}

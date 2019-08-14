@@ -3,29 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <title>MyCompany</title>
-    <link rel:"stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="fonts/fontawesome5.10.1/css/all.css"> -->
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js"></script>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <p class="logo">Mycompany</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="heading">
+                <h1>Welcome on <span>mycompany</span></h1>
+                <p>We are a digital agency with <span>years of experience</span> and with <span>extraordinary peoples</span></p>
+            </div>
+        </div>
+    </header>
+    <section id="about_us">
+        <div class="container">
+            <div class="about_us_wrapper">
+                <img src="img/monitor.png" alt="Монитор" class="monitor">
+                <div class="about_us">
+                    <h2>Some words <span>about us</span></h2>
+                    <div class="line"></div>
+                    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Doloribus ex quidem maiores ullam quis, at asperiores minus 
+                        ad eaque maxime possimus .</p>
+                    <div class="advantages">
+                        <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Mission - </span> We deliver uniqueness and quality</p>
+                        <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Skills - </span>  Delivering fast and excellent results</p>
+                        <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Clients - </span> Satisfied clients thanks to our experience</p>                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our_team">
+        <div class="container">
+            <h2>our team</h2>
+            <div class="line_our"></div>
+            <div class="company">
+                <div class="worker">
+                    <img src="img/ellipse.png" alt="">
+                    <h4>Vlad Ivanov</h4>
+                    <p class="specialization">Designer</p>
+                    <p class="status">Do not seek to change what has come before. Seek to create that which has not.</p>
+                </div>
+                <div class="worker">
+                    <img src="img/ellipse.png" alt="">
+                    <h4>Bogdan Makarov</h4>
+                    <p class="specialization">Manager</p>
+                    <p class="status">Do not seek to change what has come before. Seek to create that which has not.</p>                
+                </div>
+                <div class="worker">
+                    <img src="img/ellipse.png" alt="">
+                    <h4>Pavel Konov</h4>
+                    <p class="specialization">Copywriter</p>
+                    <p class="status">Do not seek to change what has come before. Seek to create that which has not.</p>
+                </div>
+                <div class="worker">
+                    <img src="img/ellipse.png" alt="">
+                    <h4>Max Belov</h4>
+                    <p class="specialization">SEO</p>
+                    <p class="status">Do not seek to change what has come before. Seek to create that which has not.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our_services">
+        <div class="container">
+            <div class="our_services_heading">
+                <h2>our services</h2>
+                <div class="line_our"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime 
+                    possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque 
+                    maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>                
+            </div>
+            <div class="our_services_wrapper">
+                <div class="services">
+                    <img src="img/Web.png" alt="">
+                    <h3>Web design</h3>
+                    <p class="servoces_description">The first line of Lorem Ipsum, 
+                        "Lorem ipsum dolor sit amet..", 
+                        comes from a line in section 1.10.32.</p>
+                </div>
+                <div class="services">
+                    <img src="img/Mobile.png" alt="">
+                    <h3>Mobile apps</h3>
+                    <p class="servoces_description">The first line of Lorem Ipsum, 
+                        "Lorem ipsum dolor sit amet..", 
+                        comes from a line in section 1.10.32.</p>
+                </div>
+                <div class="services">
+                    <img src="img/photography.png" alt="">
+                    <h3>Photography</h3>
+                    <p class="servoces_description">The first line of Lorem Ipsum, 
+                        "Lorem ipsum dolor sit amet..", 
+                        comes from a line in section 1.10.32.</p>
+                </div>
+                <div class="services">
+                    <img src="img/marketing.png" alt="">
+                    <h3>Marketing</h3>
+                    <p class="servoces_description">The first line of Lorem Ipsum, 
+                        "Lorem ipsum dolor sit amet..", 
+                        comes from a line in section 1.10.32.</p>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <section id="our_clients">
+        <div class="container">
+            <div class="our_clients_heading">
+                <h2>Some of <span>our clients</span></h2>
+                <div class="line_our"></div>
+            </div>
+            <div class="our_clients_wrapper">
+                <img src="img/chanel.png" alt="">
+                <img src="img/zara.png" alt="">
+                <img src="img/guerlain.png" alt="">
+                <img src="img/lancome.png" alt="">
+                <img src="img/lacoste.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="our_work">
+        <div class="container">
+            <div class="our_work_heading">
+                <h2>take a look at <span>our work</span></h2>
+                <div class="line_our"></div>
+                <p></p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
