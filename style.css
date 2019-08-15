@@ -11,6 +11,7 @@ body {
 .container {
     width: 1190px;
     margin: 0 auto;
+
 }
 
 h2 {
@@ -28,7 +29,8 @@ header {
 nav ul, 
 .about_us_wrapper, 
 .company, 
-.our_services_wrapper {
+.our_services_wrapper,
+.user_data {
     display: flex;
     justify-content: space-between;
 }
@@ -55,6 +57,11 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+nav a:hover {
+    border-bottom: 3px solid rgba(252, 172, 69, 0.8);
 }
 
 .heading {
@@ -177,7 +184,9 @@ h1 span {
     color: #222222;
 }
 
-.our_services_heading p {
+.our_services_heading p, 
+.our_work_heading p,
+.contact_heading p  {
     color: #6c6c6c;
     font-style: italic;
     width: 1125px;
@@ -205,15 +214,131 @@ h1 span {
     padding-bottom: 210px;
 }
 
-.our_clients_heading h2, .our_work_heading h2{
+.our_clients_heading h2, 
+.our_work_heading h2, 
+.our_clients_testimonials_heading h2 {
     font-weight: lighter;
 }
 
-.our_clients_heading span, .our_work_heading span {
+.our_clients_heading span, 
+.our_work_heading span, 
+.our_clients_testimonials_heading span,
+.our_clients_testimonials_book_autor span {
     font-weight: bold;
 }
 
 .our_clients_wrapper {
     display: flex;
     justify-content: space-around;
+}
+
+#our_work {
+    text-align: center;    
+    padding-top: 100px;
+}
+
+.our_work_images {
+    padding-bottom: 100px;
+}
+
+
+.our_work_images img {
+    margin: 0 30px 30px 0;
+}
+
+.our_work_images img:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+#our_clients_testimonials {
+    background: #0b0b0b;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    color: #ffffff;    
+    font-size: 18px;
+}
+
+.description_book {
+    width: 935px;
+    margin: 0 auto;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.our_clients_testimonials_book_autor {
+    color: #b2b2b2;
+}
+
+#contact {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact_heading p {
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.contact_form {
+    width: 750px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact_form label {
+    color:#6c6c6c;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.contact_form input {
+    border: 1px solid #999999;
+}
+
+.user_data {
+    margin-bottom: 30px;
+}
+
+.user_data input {
+    width: 360px;
+    height: 40px;
+}
+
+.user_email {
+    margin-left: 30px;
+}
+
+.user_massage input {
+    width: 750px;
+    height: 165px;
+}
+
+.contact_form button {
+    width: 165px;
+    height: 40px;
+    background: #fcac45;
+    border: none;
+    margin-top: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+}
+
+footer {
+    background: #222222;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer img {
+    margin-right: 10px;
 }

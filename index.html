@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container">
             <div class="menu">
                 <p class="logo">Mycompany</p>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about_us">About</a></li>
+                        <li><a href="#our_services">Services</a></li>
+                        <li><a href="#our_work">Portfolio</a></li>
+                        <li><a href="#our_clients_testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav> 
             </div>
@@ -146,9 +146,85 @@
             <div class="our_work_heading">
                 <h2>take a look at <span>our work</span></h2>
                 <div class="line_our"></div>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime 
+                    possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque 
+                    maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>
+            </div>
+            <div class="our_work_images">
+                <img src="img/work_1.png" alt="">
+                <img src="img/work_1.png" alt="">
+                <img src="img/work_1.png" alt="">
+                <img src="img/work_1.png" alt="">
+                <img src="img/work_2.png" alt="">
+                <img src="img/work_2.png" alt="">
+                <img src="img/work_2.png" alt="">
+                <img src="img/work_2.png" alt="">
+                <img src="img/work_3.png" alt="">
+                <img src="img/work_3.png" alt="">
+                <img src="img/work_3.png" alt="">
+                <img src="img/work_3.png" alt="">
             </div>
         </div>
     </section>
+    <section id="our_clients_testimonials">
+        <div class="container">
+            <div class="our_clients_testimonials_heading">
+                <h2><span>our clients’</span>  testimonials</h2>
+                <div class="line_our"></div>
+            </div>
+            <div class="our_clients_testimonials_book">
+                <p class="description_book">This book is a treatise on the theory of ethics, very popular during the 
+                    Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", 
+                    comes from a line in section 1.10.32.</p>
+                <p class="our_clients_testimonials_book_autor"><span>Dean Martin,</span> CEO Acme Inc.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="contact_heading">
+                <h2>contact us</h2>
+                <div class="line_our"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Doloribus ex quidem maiores ullam quis, at aspe&shy;riores minus ad eaque 
+                    maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>                
+            </div>
+            <div class="contact_form">
+                <form action="#">
+                    <div class="user_data">   
+                        <div class="user_name">
+                            <!-- <p>Name</p> -->
+                            <label class="control-label required" for="username">Name</label>
+                            <input type="text" name="name" id="" required>                            
+                        </div>                 
+                        <div class="user_email">
+                            <!-- <p>Email adress</p> -->
+                            <label class="control-label required" for="username">Email adress</label>
+                            <input type="email" name="email" id="" required>                             
+                        </div>
+                    </div>
+                    <div class="user_massage">
+                        <!-- <p>Massage</p> -->
+                        <label class="control-label required" for="username">Massage</label>
+                        <input type="text" name="massage" id="" required>                        
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <img src="img/icon_facebook.png" alt="">
+            <img src="img/icon_twitter.png" alt="">
+            <img src="img/icon_google.png" alt="">
+            <img src="img/icon_linkedin.png" alt="">
+            <img src="img/icon_dribbble.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
